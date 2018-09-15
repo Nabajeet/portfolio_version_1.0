@@ -1,0 +1,266 @@
+/* Nabajeet Home Page */
+
+body {
+    color: #333333;
+    font-family: courier, monospace;
+    font-size: 16px;
+}
+
+#container {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 10px 20px;
+    border-bottom: solid 2px #333333;
+}
+
+#logo,
+#headerAbout,
+nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#headerAbout {
+    width: 153px;
+    margin-left: 60px;
+    margin-right: 100px;
+}
+
+#headerAbout span {
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 0px;
+    padding: 0 30px;
+}
+
+header a:link,
+header a:visited {
+    color: #333333;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #66ccff;
+}
+
+a:active {
+    position: relative;
+    top: 1px;
+}
+
+h4 {
+    text-align: center;
+}
+
+#homeBackground {
+    margin: 0 auto;
+    height: 809px;
+    width: 817px;
+    background: url(img/naba_home_background.jpg) center center no-repeat;
+}
+
+#homeBackground #noteBack {
+     z-index: 1;
+    position: relative;
+    top: 20;
+    left: 20;
+    height: 479px;
+    width: 580px;
+    background: url(img/about_me_home_back.jpg) center center no-repeat;
+    opacity: 0.75;
+}
+
+#homeBackground #noteBack p {
+    padding: 10px 10px;
+    font-size: 28px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+#homeBackground #noteBack a img {
+    opacity: 1;
+    margin: 0 auto;   
+
+}
+
+#homeSketch {
+    text-align: center;
+    vertical-align: middle;
+    margin: 30 auto;
+    width: 817px;
+    height: 703px;
+    background: url(img/sketch_section_home.jpg) center center no-repeat;
+}
+
+#homePhoto {
+    margin: 30 auto;
+    width: 817px;
+    text-align: center;
+    vertical-align: middle;
+    height: 703px;
+    background: url(img/photo_section_home.jpg) center center no-repeat;
+}
+
+
+#homeSketch a,
+#homePhoto a {
+    border-radius: 10px;
+    padding: 10px 10px;
+    background: linear-gradient(#333333, #cccccc);
+    line-height: 703px;
+    font-size: 2em;
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0px 2px 5px #333333, 0px 2px 10px #ffffff;
+    opacity: 0.75;
+    box-shadow: 0px 20px 10px -15px #000000;
+
+}
+
+#homeSketch a:hover,
+#homePhoto a:hover {
+    color: #66ccff;
+}
+
+#homeBooks {
+    text-align: center;
+    margin: 5 auto;
+    width: 817px;
+}
+
+#homeBooks span {
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 5px 5px;
+    border-radius: 5%;
+    text-decoration: none;
+    background: linear-gradient(#eeeeee, #555555);
+    color: #ffffff;
+    text-shadow: 0px 2px 5px #333333, 0px 2px 10px #ffffff;
+}
+
+footer {
+    padding-top: 5px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    color: white;
+}
+
+footer p {
+    background: #aaaaaa;
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+/* SKETCHES, PHOTOGRAPHY PAGE STYLE */
+
+#sketches,
+#photography {
+    text-align: center;
+}
+
+#sketches ul,
+#photography ul {
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+#sketches ul li,
+#photography ul li {
+    text-align: center;
+    margin: 30px auto;
+}
+
+/* BOOKS PAGE STYLES*/
+
+#booksContainer {
+    margin: 0 10px;
+}
+
+#booksContainer div.clearfix {
+    margin-bottom: 20px;
+}
+
+#booksContainer div img {
+    width: 170px;
+    float: left;
+    margin-right: 20px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* DROPDOWN WORKS STYLE */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    padding: 10px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+        z-index: 2;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* ABOUT PAGE */
+#aboutBack{
+    background: url("img/aboutBack.jpg");
+    height: 457px;
+    width: 817px;
+    margin: 0 auto;
+}
+#aboutContainer{
+    text-align: center;
+}
+#aboutContainer ul{
+    list-style: none;
+    line-height: 2;
+    font-weight: bold;
+}
+#contactContainer{
+    text-align: center;
+    margin: 30px auto;
+}
+#poemContainer{
+    line-height: 1.5;
+    text-align: center;
+    margin: 30px auto;
+}
+#poemContainer p{
+    margin-bottom: 20px;
+}
